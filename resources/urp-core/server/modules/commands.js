@@ -119,6 +119,4 @@ chat.registerCmd('createMarker', (source) => {
 
 chat.registerCmd('noclip', (source) => {
    alt.emitClient(source, 'toogle:Noclip');
-   alt.log(`on`)
-
 })

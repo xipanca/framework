@@ -227,7 +227,7 @@ alt.onServer('toogle:Noclip', () => {
     natives.setEntityVisible(alt.Player.local.scriptID, true, 0);
     natives.setEntityCollision(alt.Player.local.scriptID, true, true);
     alt.clearEveryTick(loop);
-  }
+  } 
 });
 
 export default {drawText, drawText3D, startTicks, handleSetplayerData, getPlayerData, handleDeath, interactionMode, RequestModel}
